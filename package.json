@@ -1,0 +1,27 @@
+{
+	"name": "node-red-contrib-second-pulse",
+	"version": "1.0.7",
+	"description": "Outputs true and timestamp every second on the second referencing system time.",
+	"dependencies": {},
+	"keywords": [
+		"node-red",
+		"second",
+		"pulse"
+	],
+	"main": "second-pulse.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Alan Madorin",
+	"repository": "https://github.com/Nirodam/node-red-contrib-second-pulse",
+	"license": "ISC",
+	"node-red": {
+		"version": ">=1.0.0",
+		"nodes": {
+			"second_pulse": "second-pulse.js"
+		}
+	},
+	"engines": {
+		"node": ">=12.0.0"
+	}
+}
