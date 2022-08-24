@@ -1,0 +1,32 @@
+[
+    {
+        "id": "8a14e4070dd0a223",
+        "type": "second pulse",
+        "z": "576271fb60d0bbaa",
+        "name": "",
+        "x": 190,
+        "y": 200,
+        "wires": [
+            [
+                "5f3492a614441846"
+            ]
+        ]
+    },
+    {
+        "id": "5f3492a614441846",
+        "type": "debug",
+        "z": "576271fb60d0bbaa",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 380,
+        "y": 200,
+        "wires": []
+    }
+]
